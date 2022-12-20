@@ -1,4 +1,4 @@
 class Person
-  def initialize(name, age, parent_permission)
+  def initialize(age, name = 'Unknown', parent_permission = true)
   end
 end
