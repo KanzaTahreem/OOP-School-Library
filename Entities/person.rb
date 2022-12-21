@@ -1,4 +1,4 @@
-require_relative '../Decorator/nameable'
+require_relative '../Decorate/nameable'
 
 class Person < Nameable
   attr_reader :id
