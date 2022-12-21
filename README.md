@@ -26,6 +26,7 @@
 - Add new students or teachers.
 - Add new books.
 - Save records of who borrowed a given book and when.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -46,6 +47,7 @@
 - Add new students or teachers.
 - Add new books.
 - Save records of who borrowed a book and when.
+- Use the `Decorator` design pattern.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +102,6 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Use the `Decorator` design pattern.
 - Set up associations.
 - Add basic UI.
 - Refactor code.
