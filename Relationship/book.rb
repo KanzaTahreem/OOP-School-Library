@@ -1,4 +1,4 @@
-require_relative '../Relationship/rental.rb'
+require_relative '../Relationship/rental'
 
 class Book
   attr_reader :rentals
