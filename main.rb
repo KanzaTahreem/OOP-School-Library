@@ -34,7 +34,7 @@ class Options
       '6' => :list_all_rentals,
       '7' => :exit
     }
-  
+
     method = options[user_choice]
     if method.nil?
       puts 'Invalid option, please try again!'
