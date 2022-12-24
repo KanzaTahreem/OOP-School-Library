@@ -72,4 +72,14 @@ class App
     puts
     puts 'Person created successfuly'
   end
+
+  def create_book
+    print 'Title: '
+    title = gets.chomp
+    print 'Author: '
+    author = gets.chomp
+    @books_list.push(Book.new(title, author))
+    puts 'Book created successfully'
+    @parent.show_menu
+  end
 end
