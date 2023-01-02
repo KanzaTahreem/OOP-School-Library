@@ -1,7 +1,7 @@
 require_relative '../Relationship/book.rb'
 
 class BookOptions
-  attr_accessor :book_list
+  attr_accessor :books_list
   def initialize
     @books_list = []
   end
