@@ -1,7 +1,6 @@
-
-require_relative '../Modules/book_options.rb'
-require_relative '../Modules/people_options.rb'
-require_relative '../Modules/rental_options.rb'
+require_relative '../Modules/book_options'
+require_relative '../Modules/people_options'
+require_relative '../Modules/rental_options'
 
 class App
   def initialize(options)
@@ -25,9 +24,9 @@ class App
       @rentals_list.create_rental
     when '6'
       @rentals_list.list_all_rentals
-      else
-        puts "Invalid option, please try again!"
-      end
-      @options.show_menu
-  end  
+    else
+      puts 'Invalid option, please try again!'
+    end
+    @options.show_menu
+  end
 end

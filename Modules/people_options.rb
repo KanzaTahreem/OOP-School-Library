@@ -1,6 +1,6 @@
-require_relative '../Entities/person.rb'
-require_relative '../Entities/student.rb'
-require_relative '../Entities/teacher.rb'
+require_relative '../Entities/person'
+require_relative '../Entities/student'
+require_relative '../Entities/teacher'
 
 class PeopleOptions
   attr_accessor :people_list
@@ -20,7 +20,6 @@ class PeopleOptions
     end
   end
 
-  
   def create_person
     print 'Do you want to create a student(1) or a teacher(2)? [Input the number] '
     person_role = gets.chomp

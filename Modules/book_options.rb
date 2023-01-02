@@ -1,7 +1,8 @@
-require_relative '../Relationship/book.rb'
+require_relative '../Relationship/book'
 
 class BookOptions
   attr_accessor :books_list
+
   def initialize
     @books_list = []
   end
@@ -13,10 +14,8 @@ class BookOptions
       puts 'Available books in the library'
       @books_list.each { |book| puts "Title: #{book.title}, Author: #{book.author}" }
     end
-    # show_menu
   end
 
-  
   def create_book
     print 'Title: '
     title = gets.chomp
@@ -24,6 +23,5 @@ class BookOptions
     author = gets.chomp
     @books_list.push(Book.new(title, author))
     puts 'Book created successfully'
-    # show_menu
   end
 end
