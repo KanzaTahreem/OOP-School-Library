@@ -2,12 +2,13 @@
 # require './Entities/teacher'
 # require './Relationship/rental'
 require_relative '../Modules/book_options.rb'
+require_relative '../Modules/people_options.rb'
 
 class App
   def initialize(options)
     @options = options
     @book_options = BookOptions.new
-    @people_list = []
+    @people_options = PeopleOptions.new
     @rentals_list = []
   end
 
@@ -16,9 +17,9 @@ class App
     when '1'
       @book_options.list_all_books
     when '2'
-      list_all_people
+      @people_options.list_all_people
     when '3'
-      create_person
+      @people_options.create_person
     when '4'
       @book_options.create_book
     when '5'
@@ -31,57 +32,9 @@ class App
       @options.show_menu
   end
 
-  # def list_all_people
-  #   if @people_list.empty?
-  #     puts 'No record found! Add a person...'
-  #   else
-  #     puts 'All people in the library'
-  #     @people_list.each do |person|
-  #       puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
-  #     end
-  #   end
-  #   @parent.show_menu
-  # end
 
-  # def create_person
-  #   puts 'Do you want to create a student(1) or a teacher(2)? [Input the number]'
-  #   person_role = gets.chomp
-  #   case person_role
-  #   when '1'
-  #     create_student
-  #   when '2'
-  #     create_teacher
-  #   else
-  #     puts 'Please add a valid input!'
-  #   end
-  #   @parent.show_menu
-  # end
 
-  # def create_student
-  #   print 'Age: '
-  #   age = gets.chomp.to_i
-  #   print 'Name: '
-  #   name = gets.chomp
-  #   print 'Has parent permission? [Y/N]: '
-  #   parent_permission = gets.chomp.downcase == 'y'
-  #   print 'Classroom: '
-  #   classroom = gets.chomp.to_i
-  #   @people_list.push(Student.new(age, classroom, name, parent_permission: parent_permission))
-  #   puts
-  #   puts 'Person created successfuly'
-  # end
-
-  # def create_teacher
-  #   print 'Age: '
-  #   age = gets.chomp
-  #   print 'Name: '
-  #   name = gets.chomp
-  #   print 'Specialization: '
-  #   specialization = gets.chomp
-  #   @people_list.push(Teacher.new(age, specialization, name))
-  #   puts
-  #   puts 'Person created successfuly'
-  # end
+ 
 
   # def create_rental
   #   puts 'Select a book from the following list by number'
