@@ -38,7 +38,7 @@ class RentalOptions
         puts "#{index}) [#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
       end
       id = gets.chomp.to_i
-      
+
       puts 'Rentals:'
       @rentals_list.each do |rental|
         puts "Date: #{rental.date}, Book \"#{rental.book.title}\" by #{rental.book.author}" if rental.person.id == id
