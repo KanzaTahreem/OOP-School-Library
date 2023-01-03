@@ -1,17 +1,16 @@
 class Storage
-  @@FILE_EXTENSION = 'json'
-  @@BASE_URL = './db/'
+  @file_extention = 'json'
+  @base_url = './db/'
 
   def self.save_date(class_name, object)
-    File.open("#{@@BASE_URL}#{class_name}.#{@@FILE_EXTENSION}", "w") do |f| 
-      f.write JSON.generate(object)
-    end
+    File.write("#{@base_url}#{class_name}.#{@file_extention}", JSON.generate(object))
   end
 
   def self.load_data(class_name)
-    file_path = "#{@@BASE_URL}#{class_name}.#{@@FILE_EXTENSION}"
+    file_path = "#{@base_url}#{class_name}.#{@file_extention}"
 
-    return [] unless File.exists?(file_path)
+    return [] unless File.exist?(file_path)
+
     data_from_file = File.read(file_path)
     JSON.parse(data_from_file, create_additions: true)
   end
