@@ -7,6 +7,7 @@ class App
   def initialize(options)
     @options = options
     @book_options = BookOptions.new
+    @book_options.books_list = Storage.load_data('books')
     @people_options = PeopleOptions.new
     @rentals_list = RentalOptions.new(@book_options, @people_options)
   end
