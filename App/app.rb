@@ -1,6 +1,7 @@
 require_relative '../Modules/book_options'
 require_relative '../Modules/people_options'
 require_relative '../Modules/rental_options'
+require_relative '../Modules/storage.rb'
 
 class App
   def initialize(options)
@@ -20,6 +21,7 @@ class App
       @people_options.create_person
     when '4'
       @book_options.create_book
+      Storage.save_date('books', @book_options.books_list)
     when '5'
       @rentals_list.create_rental
     when '6'
