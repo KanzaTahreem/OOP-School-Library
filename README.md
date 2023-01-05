@@ -14,7 +14,7 @@
     - [Install](#install)
     - [Usage ](#usage-)
     - [Run tests](#run-tests)
-  - [👥 Author ](#-author-)
+  - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -107,11 +107,19 @@ To run tests, run the following command:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
+
+👤 **Author 1**
 
 - GitHub: [@KanzaTahreem](https://github.com/KanzaTahreem)
 - Twitter: [@kanza_tahreem](https://twitter.com/kanza_tahreem)
 - LinkedIn: [Kanza Tahreem](https://www.linkedin.com/in/kanza-tahreem/)
+
+👤 **Author 2**
+- GitHub: [@MahdiAghaali](https://github.com/MahdiAghaali)
+- Twitter: [@Mohi_Aghaali](https://twitter.com/Mohi_Aghaali)
+- LinkedIn: [mahdi-aghaali](https://www.linkedin.com/in/mahdi-aghaali/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
