@@ -7,12 +7,14 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage ](#usage-)
-  - [👥 Author ](#-author-)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -51,6 +53,13 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- N/A
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -86,15 +95,31 @@ To run the project, execute the following command:
   ruby [file_name].rb
 ```
 
+### Run tests
+
+To run tests, run the following command:
+
+```
+  rspec *_rspec.rb
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
+
+👤 **Author 1**
 
 - GitHub: [@KanzaTahreem](https://github.com/KanzaTahreem)
 - Twitter: [@kanza_tahreem](https://twitter.com/kanza_tahreem)
 - LinkedIn: [Kanza Tahreem](https://www.linkedin.com/in/kanza-tahreem/)
+
+👤 **Author 2**
+- GitHub: [@MahdiAghaali](https://github.com/MahdiAghaali)
+- Twitter: [@Mohi_Aghaali](https://twitter.com/Mohi_Aghaali)
+- LinkedIn: [mahdi-aghaali](https://www.linkedin.com/in/mahdi-aghaali/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,11 +127,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Set up associations.
-- Add basic UI.
-- Refactor code.
-- Preserve data.
-- Unit tests.
+- Add more tests
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
