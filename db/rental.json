@@ -1,0 +1,18 @@
+[
+  {
+    "json_class": "Rental",
+    "date": "2020/09/09",
+    "book": {
+      "json_class": "Book",
+      "title": "Fundamental of Physics",
+      "author": "Haliday"
+    },
+    "person": {
+      "json_class": "Student",
+      "age": 23,
+      "classroom": 18,
+      "name": "kanza",
+      "parent_permission": true
+    }
+  }
+]
