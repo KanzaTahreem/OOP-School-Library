@@ -1,4 +1,4 @@
-require_relative '../Relationship/book'
+require_relative '../book'
 
 class BookOptions
   attr_accessor :books_list

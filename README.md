@@ -18,6 +18,7 @@
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
@@ -109,13 +110,13 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author 1**
+👤 **Kanza Tahreem**
 
 - GitHub: [@KanzaTahreem](https://github.com/KanzaTahreem)
 - Twitter: [@kanza_tahreem](https://twitter.com/kanza_tahreem)
 - LinkedIn: [Kanza Tahreem](https://www.linkedin.com/in/kanza-tahreem/)
 
-👤 **Author 2**
+👤 **Mahdi Aghaali**
 - GitHub: [@MahdiAghaali](https://github.com/MahdiAghaali)
 - Twitter: [@Mohi_Aghaali](https://twitter.com/Mohi_Aghaali)
 - LinkedIn: [mahdi-aghaali](https://www.linkedin.com/in/mahdi-aghaali/)
@@ -149,8 +150,16 @@ If you like this project and want to support me make cooler projects Give this p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
+<!-- ACKNOWLEDGMENT -->
+
+## 🙏 Acknowledgments <a name="Acknowledgments"></a>
+
+Thank you to microverse for setting us on this journey.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.

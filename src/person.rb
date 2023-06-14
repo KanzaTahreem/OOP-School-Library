@@ -1,5 +1,5 @@
-require_relative '../Decorate/nameable'
-require_relative '../Relationship/rental'
+require_relative './decorator/nameable'
+require_relative './rental'
 
 class Person < Nameable
   attr_reader :id, :rentals

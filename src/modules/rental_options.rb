@@ -1,4 +1,4 @@
-require_relative '../Relationship/rental'
+require_relative '../rental'
 
 class RentalOptions
   attr_accessor :rentals_list

@@ -1,6 +1,6 @@
-require_relative '../Entities/person'
-require_relative '../Entities/student'
-require_relative '../Entities/teacher'
+require_relative '../person'
+require_relative '../student'
+require_relative '../teacher'
 
 class PeopleOptions
   attr_accessor :people_list
