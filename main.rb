@@ -1,4 +1,4 @@
-require_relative './App/app'
+require_relative './app'
 
 class Options
   def initialize

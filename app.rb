@@ -1,7 +1,7 @@
-require_relative '../Modules/book_options'
-require_relative '../Modules/people_options'
-require_relative '../Modules/rental_options'
-require_relative '../Modules/storage'
+require_relative './src/modules/book_options'
+require_relative './src/modules/people_options'
+require_relative './src/modules/rental_options'
+require_relative  './src/modules/storage'
 
 class App
   def initialize(options)
