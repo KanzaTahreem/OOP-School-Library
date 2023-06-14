@@ -24,9 +24,7 @@ describe Teacher do
   context 'Convert Teacher object to JSON' do
     it 'should check json string' do
       json_obj = @teacher.to_json.to_s
-      # rubocop:disable Layout/LineLength
       json_str = '{"json_class":"Teacher","age":13,"specialization":"Solid State","name":"Asghari","parent_permission":false}'
-      # rubocop:enable Layout/LineLength
       expect(json_obj).to eq json_str
     end
   end

@@ -18,9 +18,7 @@ describe Rental do
       @rental = Rental.new('2020/12/12', @book, @person)
 
       json_obj = @rental.to_json.to_s
-      # rubocop:disable Layout/LineLength
       json_str = '{"json_class":"Rental","date":"2020/12/12","book":{"json_class":"Book","title":"Title","author":"Author"},"person":{"json_class":"Student","age":"25","classroom":"ruby-101","name":"Mohi","parent_permission":true}}'
-      # rubocop:enable Layout/LineLength
 
       expect(json_obj).to eq json_str
     end
@@ -29,10 +27,8 @@ describe Rental do
   context '>> Create an object from JSON' do
     it '>> Check json string' do
       @rental = JSON.parse(
-        # rubocop:disable Layout/LineLength
         '{"json_class":"Rental","date":"2020/12/12","book":{"json_class":"Book","title":"Title","author":"Author"},"person":{"json_class":"Student","age":"25","classroom":"ruby-101","name":"Mohi","parent_permission":true}}', create_additions: true
       )
-      # rubocop:enable Layout/LineLength
 
       expect(@rental).to be_an_instance_of Rental
     end
